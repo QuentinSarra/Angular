@@ -1,0 +1,8 @@
+<input [(ngModel)]="id" placeholder="id" >
+<input readonly value={{id}}>
+
+<select id="selector" [(ngModel)]="selectedValue">
+    <option [ngValue]="filterPokemonPipe" *ngFor="let pokemon of pokemons">{{pokemon.name}}</option>
+</select>
+
+<input value={{selectedValue}}>

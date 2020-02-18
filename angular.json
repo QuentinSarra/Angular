@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "pokdemo": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pokdemo"
+    }
+  },
+  "defaultProject": "pokdemo",
+  "cli": {
+    "analytics": "a87412f3-93fc-430b-a4cf-2380b922acd8"
+  }
 }
